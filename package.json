@@ -1,0 +1,30 @@
+{
+  "name": "todo-list-serverless",
+  "version": "1.0.0",
+  "description": "Serverless Todo List API with AWS Lambda, API Gateway, and DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "deploy:dev": "serverless deploy --stage dev",
+    "deploy:prod": "serverless deploy --stage prod",
+    "remove:dev": "serverless remove --stage dev",
+    "remove:prod": "serverless remove --stage prod"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "lambda",
+    "api",
+    "dynamodb",
+    "todo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1472.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "serverless": "^3.35.2",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
