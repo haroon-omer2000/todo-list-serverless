@@ -26,7 +26,7 @@ This project implements a serverless architecture using:
 ### Prerequisites
 
 - Node.js (v14+)
-- npm or yarn
+- npm / yarn
 - AWS account
 - AWS CLI configured with appropriate credentials
 - Serverless Framework
